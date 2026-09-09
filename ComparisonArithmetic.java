@@ -1,14 +1,13 @@
 import java.util.Scanner;
 
 public class ComparisonArithmetic {
+
     public static void main(String[] args) {
-        
         Scanner scanner = new Scanner(System.in);
-        
+
         run(scanner);
 
         scanner.close();
-
     }
 
     public static void run(Scanner scanner) {
@@ -18,7 +17,6 @@ public class ComparisonArithmetic {
         System.out.print("Введите целое число b: ");
         int b = scanner.nextInt();
 
-        // Сравнение чисел
         if (a > b) {
             System.out.println("a > b");
         } else if (a < b) {
@@ -27,7 +25,6 @@ public class ComparisonArithmetic {
             System.out.println("a = b");
         }
 
-        // Арифметические операции
         System.out.println("Сложение: " + (a + b));
         System.out.println("Вычитание: " + (a - b));
         System.out.println("Умножение: " + (a * b));
@@ -36,8 +33,6 @@ public class ComparisonArithmetic {
             System.out.println("Деление: " + ((double) a / b));
         } else {
             System.out.println("Деление невозможно: деление на ноль.");
-
         }
-
     }
 }
