@@ -17,7 +17,7 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    ComparisonArithmetic.main(new String[]{});
+                    ComparisonArithmetic.run(new String[]{});
                     break;
 
                 case 2:
@@ -25,7 +25,7 @@ public class Main {
                     break;
 
                 case 3:
-                    StringComparison.main(new String[]{});
+                    StringComparison.run(new String[]{});
                     break;
 
                 case 0:
