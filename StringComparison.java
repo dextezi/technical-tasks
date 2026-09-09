@@ -4,6 +4,13 @@ public class StringComparison {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        run(scanner);
+
+        scanner.close();
+    }
+
+    public static void run(Scanner scanner){
+
         System.out.print("Введите строку a: ");
         String a = scanner.nextLine();
 
@@ -15,7 +22,6 @@ public class StringComparison {
         } else {
             System.out.println("Строки неидентичны");
         }
-
-        scanner.close();
     }
+    
 }
