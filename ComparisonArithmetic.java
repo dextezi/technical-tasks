@@ -2,8 +2,16 @@ import java.util.Scanner;
 
 public class ComparisonArithmetic {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
+        
+        run(scanner);
 
+        scanner.close();
+
+    }
+
+    public static void run(Scanner scanner) {
         System.out.print("Введите целое число a: ");
         int a = scanner.nextInt();
 
@@ -31,6 +39,5 @@ public class ComparisonArithmetic {
 
         }
 
-        scanner.close();
     }
 }
