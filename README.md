@@ -30,13 +30,13 @@
 ### Способ 1 - Каждую задачу отдельно:
 ```bash
 javac ComparisonArithmetic.java
-java Task1NumberComparison
+java ComparisonArithmetic
 
 javac StringComparison.java
-java Task2StringComparison
+java StringComparison
 
 javac EvenNumbers.java
-java Task3EvenNumbers
+java EvenNumbers
 ```
 
 ### Способ 2 - Все сразу через меню:
